@@ -54,7 +54,7 @@ Push the container image into LightSail registry.
 aws lightsail push-container-image --region us-west-2 --service-name nginx-demo --label nginx --image nginx:latest
 ```
 
-[https://aws.amazon.com/getting-started/hands-on/lightsail-containers/]()
+[https://aws.amazon.com/getting-started/hands-on/lightsail-containers/](https://aws.amazon.com/getting-started/hands-on/lightsail-containers/)
 
 ## AWS S3
 
@@ -68,3 +68,5 @@ Create read all bucket policy s3-bucket-policy-read-all.json
 ```
 
 The S3 bucket is configured for static website hosting.
+
+[https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)
