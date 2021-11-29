@@ -10,7 +10,7 @@
 
 The nginx service is available at this url.
 
-[https://nginx-demo.3u6rc4jp6k002.us-west-2.cs.amazonlightsail.com/]()
+[https://nginx-demo.3u6rc4jp6k002.us-west-2.cs.amazonlightsail.com/](https://nginx-demo.3u6rc4jp6k002.us-west-2.cs.amazonlightsail.com/)
 
 ## Nginx
 
@@ -40,7 +40,7 @@ Build the container image as nginx.
 docker build -t nginx .
 ```
 
-[https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/]()
+[https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/)
 
 ## AWS LightSail
 
