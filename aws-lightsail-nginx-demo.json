@@ -1,0 +1,50 @@
+{
+    "containerServices": [
+        {
+            "containerServiceName": "nginx-demo",
+            "arn": <redacted>
+            "createdAt": "2021-11-28T20:25:23-07:00",
+            "location": {
+                "availabilityZone": "all",
+                "regionName": "us-west-2"
+            },
+            "resourceType": "ContainerService",
+            "tags": [],
+            "power": "nano",
+            "powerId": "nano-1",
+            "state": "RUNNING",
+            "scale": 1,
+            "currentDeployment": {
+                "version": 6,
+                "state": "ACTIVE",
+                "containers": {
+                    "nginx": {
+                        "image": ":nginx-demo.nginx.4",
+                        "command": [],
+                        "environment": {},
+                        "ports": {
+                            "80": "HTTP"
+                        }
+                    }
+                },
+                "publicEndpoint": {
+                    "containerName": "nginx",
+                    "containerPort": 80,
+                    "healthCheck": {
+                        "healthyThreshold": 2,
+                        "unhealthyThreshold": 2,
+                        "timeoutSeconds": 2,
+                        "intervalSeconds": 5,
+                        "path": "/",
+                        "successCodes": "200-499"
+                    }
+                },
+                "createdAt": "2021-11-29T08:33:11-07:00"
+            },
+            "isDisabled": false,
+            "principalArn": <redacted>
+            "privateDomainName": "nginx-demo.service.local",
+            "url": "https://nginx-demo.3u6rc4jp6k002.us-west-2.cs.amazonlightsail.com/"
+        }
+    ]
+}
